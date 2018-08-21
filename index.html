@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebMark Todo List</title>
+    <script src="tasks.js"></script>
+</head>
+<body>
+
+<p> Todo List</p>
+<form onsubmit="return addTask(event)" action="index.html">
+
+    <div>
+        <label for="task-name">Task Name</label>
+        <input type="text" id="task-name"><br>
+    </div>
+
+    <div>
+        <label for="task-name">Task Date</label>
+        <input type="text" id="task-date"><br>
+    </div>
+
+    <div>
+        <label for="task-description">Task Description</label>
+        <input type="text" id="task-description"><br>
+    </div>
+
+    <input type="submit" value="Add Task">
+
+</form>
+</body>
+</html>
